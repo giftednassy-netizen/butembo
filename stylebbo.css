@@ -6,13 +6,30 @@ body
 	font-size: 15px;
 	text-align: justify;
 }
-header{
-	background-color:#a39dfe;
-	text-decoration: none;
-	position: sticky;
-	padding: 10px 20px;
-	border-bottom: 1px solid black;
-	top: 0;
+header {
+    background-color: #a39dfe;
+    text-decoration: none;
+    position: sticky;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    top: 0;
+    z-index: 1000;
+}
+
+section {
+    scroll-margin-top: 86px;
+    /* ajuste selon la hauteur du header*/
+}
+
+
+/* pour renforcer; pourvue que tout les navigateurs reconnaisse l'espace invisible sous le header */
+
+[id]::before {
+    content: "";
+    display: block;
+    height: 5px;
+    /* hauteur du header*/
+    margin-top: -5px;
 }
 header h1 {
 	margin: 0;
@@ -120,3 +137,4 @@ footer {
       right: 10px;
 
     }
+
