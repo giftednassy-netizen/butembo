@@ -2,7 +2,7 @@ body
 {
 	margin:0;
 	background-color:#e5e5e5;
-	font-family; arial ;
+	font-family: arial ;
 	font-size: 15px;
 	text-align: justify;
 }
@@ -154,4 +154,5 @@ footer {
 	video {
 	    max-width: 100%;
 	}
+
 
