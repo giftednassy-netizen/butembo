@@ -138,3 +138,18 @@ footer {
 
     }
 
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	.carousel-container,
+	video {
+	    max-width: 100%;
+	}
